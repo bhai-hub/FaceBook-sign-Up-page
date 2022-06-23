@@ -127,6 +127,7 @@
     margin-top: 50px;
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 
 }
 .language>li>a{
@@ -213,4 +214,25 @@
         margin-top: 30px;
     }
 
+}
+
+@media screen and (max-width: 600px){
+    body{
+        text-align: center;
+    }
+    .body{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .into{
+        display: none;
+    }
+    .main{
+       display: block;
+       width: 100%;
+    }
+    .text2{
+        margin: 10px;
+    }
 }
